@@ -378,7 +378,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  /* background-color: black; */
 }
 .project h2 {
 	font-size: 45px;
@@ -406,7 +406,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius:0;
   padding: 17px 0;
   color: #fff;
   width: 100%;
@@ -432,8 +432,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
+
 .project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
+    /* border: 1px solid rgba(255, 255, 255, 1); */
+
 }
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
@@ -503,7 +505,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 100px 0;
 }
 .contact img {
   width: 92%;
@@ -525,6 +527,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
+  
 }
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
@@ -548,7 +551,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 25px;
   border-radius: 0;
   position: relative;
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out; /*to prevent sudden color change*/
 }
 .contact form button span {
   z-index: 1;
@@ -577,10 +580,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
-  background-size: cover;
+  background-size: cover ;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+
+.footer img {
+  width: 26%;
+}
+.footer .contact-img {
+  width: 96%;
+}
+.footer p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+
+
+
+
+/* .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -639,14 +660,4 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
-}
-.footer img {
-  width: 26%;
-}
-.footer p {
-  font-weight: 400;
-  font-size: 14px;
-  color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 20px;
-}
+} */

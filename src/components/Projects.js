@@ -41,7 +41,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className='project' id='' project>
+    <section className='project' id='project' >
       <Container>
         <Row>
           <Col>
@@ -100,7 +100,7 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt="Image" />
+      <img className="background-image-right" src={colorSharp2} alt="backImg" />
       
     </section>
 
