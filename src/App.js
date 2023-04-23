@@ -10,6 +10,8 @@ import Footer from './components/Footer';
 
 
 function App() {
+  
+  console.log("password is : ",process.env.REACT_APP_PASS);
   return (
     <div className="App" onClick={()=>console.log('App Clicked!!')}>
       <NavBar/>
